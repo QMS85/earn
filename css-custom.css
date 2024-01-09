@@ -1,0 +1,396 @@
+* {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.console-holder,
+body,
+html,
+.console {
+  /* Hide the scrollbar for webkit-based browsers (Chrome, Safari, etc.) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Optional: If you want to hide the scrollbar in Firefox */
+  /* Note that Firefox does not support the ::-webkit-scrollbar pseudo-element */
+  /* You can use the scrollbar-width property instead */
+  scrollbar-width: none;
+}
+
+.console-holder {
+  overflow: hidden;
+  height: 240px;
+  background-color: #031018cc !important;
+  font-family: courier new;
+  color: #c3fffb;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.console-holder p {
+  margin: 0;
+}
+
+.console {
+  padding: 10px;
+  overflow: auto;
+}
+
+.blink-cursor {
+  height: 15px;
+  width: max-content;
+  /* background-color: #667775; */
+  margin-top: -1px;
+  margin-left: 3px;
+}
+
+.pkg-logo {
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.pkg-logo svg path {
+  fill: #8cceff;
+  stroke: #c7cbce;
+}
+
+.fb-pkg .pkg-logo {
+  margin-top: -8px;
+  width: 50px;
+  right: 10px;
+}
+
+.mid-pkg .pkg-logo {
+  width: 40px;
+}
+.avg-pkg .pkg-logo {
+  width: 50px;
+}
+
+.over-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  background-color: #0000009c;
+}
+
+.over-loader div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
+  margin-right: 0.5em;
+  display: inline-block;
+  color: rgb(255 255 255 / 77%) !important;
+  content: "►";
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #ff9696 !important;
+  --bs-btn-border-color: #ffbcbc !important;
+}
+
+.text-danger {
+  --bs-text-opacity: 1;
+  color: #ff8e8e !important;
+}
+
+.clear-btn {
+  top: -5px;
+  right: -5px;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.pkg-timer {
+  position: absolute;
+  bottom: -23px;
+  font-size: 12px !important;
+  left: 18px;
+}
+
+* {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+.console-holder,
+body,
+html,
+.console {
+  /* Hide the scrollbar for webkit-based browsers (Chrome, Safari, etc.) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Optional: If you want to hide the scrollbar in Firefox */
+  /* Note that Firefox does not support the ::-webkit-scrollbar pseudo-element */
+  /* You can use the scrollbar-width property instead */
+  scrollbar-width: none;
+}
+
+.console-holder {
+  overflow: hidden;
+  height: 240px;
+  background-color: #031018cc !important;
+  font-family: courier new;
+  color: #c3fffb;
+  line-height: 19px;
+  font-size: 13px;
+}
+
+.console-holder p {
+  margin: 0;
+}
+
+.console {
+  padding: 10px;
+  overflow: auto;
+}
+
+.blink-cursor {
+  height: 15px;
+  width: max-content;
+  /* background-color: #667775; */
+  margin-top: -1px;
+  margin-left: 3px;
+}
+
+.pkg-logo {
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.pkg-logo svg path {
+  fill: #8cceff;
+  stroke: #c7cbce;
+}
+
+.fb-pkg .pkg-logo {
+  margin-top: -8px;
+  width: 50px;
+  right: 10px;
+}
+
+.mid-pkg .pkg-logo {
+  width: 40px;
+}
+.avg-pkg .pkg-logo {
+  width: 50px;
+}
+
+.over-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000000;
+  background-color: #0000009c;
+}
+
+.over-loader div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
+  margin-right: 0.5em;
+  display: inline-block;
+  color: rgb(255 255 255 / 77%) !important;
+  content: "►";
+}
+
+.btn-outline-danger {
+  --bs-btn-color: #ff9696 !important;
+  --bs-btn-border-color: #ffbcbc !important;
+}
+
+.text-danger {
+  --bs-text-opacity: 1;
+  color: #ff8e8e !important;
+}
+
+.clear-btn {
+  top: -5px;
+  right: -5px;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.pkg-timer {
+  position: absolute;
+  bottom: -23px;
+  font-size: 12px !important;
+  left: 18px;
+}
+
+.top-contain img {
+  width: 100%;
+  max-width: 150px;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 2px 3px 20px #2275ae;
+}
+.top-contain {
+  text-align: center;
+}
+
+.bottom-contain {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .app-header .brand {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .app-header .brand .brand-logo {
+    display: flex !important;
+  }
+}
+
+.g-btn {
+  position: fixed;
+  bottom: 4px;
+  right: 10px;
+   box-shadow: 2px 3px 10px #005f14; 
+  z-index: 10000;
+  font-size: 13px;
+}
+
+.g-admin {
+  box-shadow: 2px 3px 10px #a63333;
+  left: 10px;
+  right: auto;
+}
+
+.menu-item.support-menu {
+  border: 1px solid #ffb500;
+  border-radius: 4px;
+  margin: 0 10px 0 10px !important;
+  box-shadow: 2px 3px 10px #ffbe1f63;
+}
+
+.disp-img img {
+  width: 100%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 20px black;
+}
+
+.bottom-contain .new-text-text {
+  margin: 20px 5px;
+}
+
+.timer-sm {
+  font-size: 11px !important;
+  border: 1px solid;
+  width: max-content;
+  padding: 0 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #6f740c;
+}
+
+button#main-execute:not([disabled]) {
+  box-shadow: 0 0 20px #0046be, inset 0 0 15px #154991;
+  border:2px solid #105cbe;
+  position:relative;
+  text-shadow:0 0 15px white;
+}
+
+
+button#main-execute {
+  margin:8px 0;
+  padding:11px;
+  border-radius:6px;
+  font-size:15px;
+  width:max-content;
+  min-width:150px;
+}
+
+.md-icon {
+  position: relative;
+width: 120px; /* Set the desired width */
+height: 120px; /* Set the desired height */
+overflow: hidden;
+background-color:red;
+margin:auto;
+border-radius:40px;
+margin-bottom:15px;
+}
+
+.md-icon:has(.check-img:not(.d-none)){
+box-shadow:0 0 20px #008416;
+}
+
+img.check-img {
+  position: absolute;
+height:270px;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+
+}
+
+.error-img {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  height:120px;
+}
+
+
+.md-icon:has(.error-img:not(.d-none)){
+box-shadow:0 0 20px #ff2222;
+}
+
+#alertModal p {
+  text-align: center;
+}
+
+.beta-tag {
+  color: #ffe400 !important;
+  margin-left: 4px;
+  box-shadow: 0 0 10px;
+  padding: 0 4px;
+  border: 1px solid #ffe400 !important;
+}
+
+.fab.check-img {
+  font-size:140px;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      background-color:white;
+  }
+
+  .sw-tab {
+    text-shadow:0 0 12px;
+    font-weight:bold;
+}
